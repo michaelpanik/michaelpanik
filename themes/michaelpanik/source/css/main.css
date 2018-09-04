@@ -1,0 +1,89 @@
+@import './reset.css';
+@import './typography.css';
+
+body {
+    display: grid;
+    grid-template-columns:  1fr 3fr;
+    overflow: hidden;
+}
+
+body > header {
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body > header > main {
+    flex-grow: 1;
+}
+
+.logo {
+    margin-bottom: 1.5em;
+}
+
+button.menu-toggle {
+    display: none;
+    position: relative;
+    z-index: 99999;
+}
+
+body > main {
+    padding: 4.5em 3em;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.copyright {
+    margin: 0;
+}
+
+@media (max-width:992px) {
+    body {
+        display: block;
+        overflow: auto;
+    }
+
+    body > header {
+        height: auto;
+    }
+
+    body > header > main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        margin-bottom: 0;
+    }
+
+    body > header > footer {
+        display: none;
+    }
+
+    nav.site-navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        pointer-events: none;
+    }
+    
+    nav.site-navigation.active {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    button.menu-toggle {
+        display: block;
+    }
+
+    body > main {
+        overflow: auto;
+        height: auto;
+    }
+}
