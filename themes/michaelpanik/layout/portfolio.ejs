@@ -1,0 +1,16 @@
+<%
+    var postList = [];
+
+    site.categories.forEach(function(item) {
+        if(item.name === 'portfolio') {
+            postList = item.posts.slice();
+        }
+    });
+%>
+
+<section id="portfolio">
+    <% postList.each(function(item){ %>
+        <%- partial('_partial/portfolio-archive', {item: item}) %>
+    <% }); %>
+    <!-- <%- partial('_partial/pagination') %> -->
+</section>

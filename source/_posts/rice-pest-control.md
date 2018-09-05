@@ -4,6 +4,7 @@ layout: portfolio-single
 categories:
   - portfolio
 date: 2018-09-03 09:27:12
+cover_image: assets/portfolio/rice-pest-control/cover.jpg
 description:
 myRole:
 stack:

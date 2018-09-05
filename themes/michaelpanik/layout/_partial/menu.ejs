@@ -1,0 +1,53 @@
+<header>
+
+    <main>
+
+        <a href=<%- url_for('/') %>>
+            <%- image_tag('/img/logo_initials.svg', {class: 'logo', alt: 'Michael Panik logo'}) %>
+        </a>
+        
+        <nav class="site-navigation">
+            <ul>
+                <% for (var i in theme.menu){ %>
+                    <li>
+                        <a href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+                    </li>
+                <% } %>
+            </ul>
+        </nav>
+
+        <button class="menu-toggle"><i class="fa fa-bars"></i></button>
+
+    </main>
+
+
+    <footer>
+
+        <ul class="social">
+            <li class="social__link">
+                <a href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social__link">
+                <a href="https://instagram.com">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social__link">
+                <a href="https://linkedin.com">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social__link">
+                <a href="https://github.com">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+
+        <p class="copyright">&copy; 2018, Michael Panik.</p>
+
+    </footer>
+
+</header>

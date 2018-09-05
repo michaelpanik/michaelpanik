@@ -1,0 +1,19 @@
+<%
+    var postList = [];
+
+    site.categories.forEach(function(item) {
+        if(item.name === 'blog') {
+            postList = item.posts.slice();
+        }
+    });
+%>
+
+<article class="page">
+    <h1>Blog</h1>
+    <ul class="archive-list">
+        <% postList.each(function(item){ %>
+            <%- partial('_partial/article-archive', {item: item}) %>
+        <% }); %>
+        <!-- <%- partial('_partial/pagination') %> -->
+    </ul>
+</article>

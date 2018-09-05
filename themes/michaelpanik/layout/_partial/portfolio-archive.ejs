@@ -1,0 +1,10 @@
+<article class="portfolio--archive">
+    <a href="<%- config.root %><%- item.path %>">
+        <%- image_tag(url_for(item.cover_image), { alt: item.title, class: "portfolio__image" }) %>
+        <div class="portfolio__overlay">
+            <h2 class="portfolio__title">
+                <%- item.title || theme.default_post_title || "Untitled" %>
+            </h2>
+        </div>
+    </a>
+</article>
