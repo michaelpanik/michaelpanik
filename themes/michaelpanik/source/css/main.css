@@ -117,7 +117,7 @@ body > main a:after {
     border-bottom: 6px solid rgba(102, 230, 207, .7);
     width: 100%;
     bottom: 0;
-    transition: .1s all linear;ß
+    transition: .1s all linear;
 }
 
 body > main a:focus,
