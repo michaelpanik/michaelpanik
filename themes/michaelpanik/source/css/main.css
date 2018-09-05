@@ -24,7 +24,7 @@ body > header > main {
 
 img.logo {
     margin-bottom: 3em;
-    max-width: 150px;
+    width: 150px;
     margin-left: -14px;
 }
 
@@ -139,14 +139,29 @@ article.hero {
     height: 100vh;
     width: 100%;
     padding: 3em;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background: #5ee2c3;
 }
 
+.bg_image {
+    background-image:   linear-gradient(74deg,#5ee2c3 0,#5ee2c3 25%,transparent 25%,transparent 75%,#00D1A0 75%,#00D1A0 100%),
+                        url(http://michael-panik.com/wp-content/uploads/sites/177/2017/08/headshot_NEW.jpg);
+    background-size: 100% 100%, cover;
+    background-position: center, bottom right;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply, normal;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vh;
+}
+
 section.hero__text {
-    text-align: center;
     font-size: 1.33em;
+    position: relative;
+    z-index: 9999;
 }
 
 h1.hero__title>sup {
@@ -177,6 +192,12 @@ p.hero__subtitle>a:hover {
     color: #5be2c2;
 }
 
+@media (max-width:1199px) {
+	.bg_image {
+		right: -25%;
+	}
+}
+
 @media (max-width:992px) {
     body {
         display: block;
@@ -185,6 +206,7 @@ p.hero__subtitle>a:hover {
 
     body > header {
         height: auto;
+        padding: 1em;
     }
 
     body > header > main {
@@ -192,8 +214,10 @@ p.hero__subtitle>a:hover {
         justify-content: space-between;
     }
 
-    .logo {
-        margin-bottom: 0;
+    img.logo {
+        margin: -15px 0 -31px -11px;
+        z-index: 9999;
+        position: relative;
     }
 
     body > header > footer {
@@ -222,5 +246,20 @@ p.hero__subtitle>a:hover {
     body > main {
         overflow: auto;
         height: auto;
+        min-height: 100vh;
+    }
+
+    article.hero {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .bg_image {
+        right: 0;
+        background-image:   linear-gradient(#5ee2c3,#5ee2c3), url(http://michael-panik.com/wp-content/uploads/sites/177/2017/08/headshot_NEW.jpg);
+        opacity: .5;
     }
 }
