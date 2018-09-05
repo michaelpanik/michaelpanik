@@ -91,9 +91,12 @@ li.social__link>a:hover {
 }
 
 body > main {
-    padding: 4.5em 3em;
     height: 100vh;
     overflow-y: scroll;
+}
+
+article.page {
+    padding: 3em;
 }
 
 body > main a {
@@ -101,6 +104,7 @@ body > main a {
     display: inline-block;
     position: relative;
     transition: .1s all linear;
+    color: #212827;
 }
 
 body > main a:after {
