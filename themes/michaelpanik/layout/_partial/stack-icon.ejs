@@ -1,0 +1,24 @@
+<%
+
+    var itemName;
+
+switch (item.toLowerCase()) {
+        case 'jquery':
+        case 'javascript (es6)':
+            var itemName = 'js'
+            break;
+
+        case 'bootstrap':
+            var itemName = 'twitter'
+            break;
+        
+        case 'css3':
+            var itemName = 'css3-alt'
+            break;
+            
+        default:
+            var itemName = item.toLowerCase();
+            break;
+    }
+%>
+<li><i class="fab fa-<%- itemName %>" data-tooltip="<%- item -%>"></i></li>

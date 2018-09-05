@@ -2,6 +2,13 @@
 @import './typography.css';
 @import './atom-one-dark.css';
 
+hr {
+    width: 5em;
+    margin: 4.5em auto;
+    border: none;
+    border-top: 10px solid #5ee2c3;
+}
+
 body {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -146,7 +153,7 @@ article.hero {
 }
 
 .bg_image {
-    background-image:   linear-gradient(74deg,#5ee2c3 0,#5ee2c3 25%,transparent 25%,transparent 75%,#00D1A0 75%,#00D1A0 100%),
+    background-image:   linear-gradient(74deg,#5ee2c3 0,#5ee2c3 25%,transparent 25%,transparent 75%,#5ee2c3 75%,#5ee2c3 100%),
                         url(http://michael-panik.com/wp-content/uploads/sites/177/2017/08/headshot_NEW.jpg);
     background-size: 100% 100%, cover;
     background-position: center, bottom right;
@@ -235,6 +242,43 @@ section#portfolio {
 .portfolio--archive>a:focus .portfolio__overlay,
 .portfolio--archive>a:hover .portfolio__overlay {
     opacity: 1;
+}
+
+.stack>li {
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+.stack i {
+    font-size: 3em;
+}
+
+.stack i[class*='css'] {
+    color: #1572B6;
+}
+
+.stack i[class*='html'] {
+    color:#E44F26;
+}
+
+.stack i[class*='twitter'] {
+    color:#2DAAE1;
+}
+
+.stack i[class*='js'] {
+    color:#F8DC3D;
+}
+
+.stack i[class*='wordpress'] {
+    color:#006D97;
+}
+
+.stack i[class*='react'] {
+    color:#61DBFB;
+}
+
+.stack i[class*='sass'] {
+    color:#CC6699;
 }
 
 @media (max-width:1199px) {
