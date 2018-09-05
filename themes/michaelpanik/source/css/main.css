@@ -40,7 +40,12 @@ button.menu-toggle {
     display: none;
     position: relative;
     z-index: 99999;
+    padding: 0;
+    margin: 0;
+    font-size: 1.66rem;
+    height: 2em;
 }
+
 
 .site-navigation>ul {
     margin: 0;
@@ -318,7 +323,15 @@ section#portfolio {
     }
 
     body > header > footer {
-        display: none;
+        display: block;
+        position: fixed;
+        bottom: 0;
+        z-index: 99999;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        padding: 1em 3em;
     }
 
     nav.site-navigation {
@@ -327,11 +340,28 @@ section#portfolio {
         left: 0;
         right: 0;
         bottom: 0;
+        background: rgba(94, 226, 195, .95);
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1.33rem;
+    }
+
+    nav.site-navigation,
+    body > header > footer {
         opacity: 0;
         pointer-events: none;
+        transition: .15s all ease-out;
     }
     
-    nav.site-navigation.active {
+    body.mobile-nav_active {
+        overflow: hidden;
+    }
+    
+    body.mobile-nav_active nav.site-navigation,
+    body.mobile-nav_active > header > footer {
         opacity: 1;
         pointer-events: all;
     }
@@ -358,5 +388,13 @@ section#portfolio {
         right: 0;
         background-image:   linear-gradient(#5ee2c3,#5ee2c3), url(http://michael-panik.com/wp-content/uploads/sites/177/2017/08/headshot_NEW.jpg);
         opacity: .5;
+    }
+
+    section#portfolio {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio--archive .portfolio__overlay {
+        opacity: 1;
     }
 }

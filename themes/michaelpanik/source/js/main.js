@@ -1,10 +1,10 @@
 const menuToggle = document.querySelector('button.menu-toggle')
-const navMenu = document.querySelector('nav.site-navigation')
+const body = document.body
 
 menuToggle.addEventListener('click', function() {
-    if (navMenu.classList.contains('active')) {
-        navMenu.classList.remove('active')
+    if (body.classList.contains('mobile-nav_active')) {
+        body.classList.remove('mobile-nav_active')
     } else {
-        navMenu.classList.add('active')
+        body.classList.add('mobile-nav_active')
     }
 })
