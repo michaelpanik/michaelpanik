@@ -211,6 +211,7 @@ section#portfolio {
     padding-top: 100%;
     display: block;
     position: relative;
+    overflow: hidden;
 }
 
 .portfolio--archive .portfolio__image {
@@ -218,6 +219,13 @@ section#portfolio {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    max-height: 100%;
+    filter: grayscale(100);
+}
+
+.portfolio--archive>a:hover .portfolio__image,
+.portfolio--archive>a:focus .portfolio__image {
+    filter: grayscale(100%) blur(5px);
 }
 
 .portfolio--archive .portfolio__overlay {
@@ -230,7 +238,7 @@ section#portfolio {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: #5ee2c3;
+    background: rgba(94, 226, 195, .8);
     opacity: 0;
     transition: .15s all ease-out;
 }
