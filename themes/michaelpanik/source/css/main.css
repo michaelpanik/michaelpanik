@@ -22,8 +22,10 @@ body > header > main {
     flex-grow: 1;
 }
 
-.logo {
+img.logo {
     margin-bottom: 3em;
+    max-width: 150px;
+    margin-left: -14px;
 }
 
 button.menu-toggle {

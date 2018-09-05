@@ -2,8 +2,10 @@
 
     <main>
 
-        <img src="./source/img/logo.svg" alt="Michael Panik Logo" class="logo">
-
+        <a href=<%- url_for('/') %>>
+            <%- image_tag('/img/logo_initials.svg', {class: 'logo', alt: 'Michael Panik logo'}) %>
+        </a>
+        
         <nav class="site-navigation">
             <ul>
                 <% for (var i in theme.menu){ %>
