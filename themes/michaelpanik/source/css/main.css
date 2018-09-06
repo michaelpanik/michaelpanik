@@ -2,6 +2,22 @@
 @import './typography.css';
 @import './atom-one-dark.css';
 
+.wf-loading h1,
+.wf-loading h2,
+.wf-loading h3,
+.wf-loading h4,
+.wf-loading h5 {
+    visibility: hidden;
+}
+
+.wf-active h1,
+.wf-active h2,
+.wf-active h3,
+.wf-active h4,
+.wf-active h5 {
+    visibility: visible;
+}
+
 * {
     outline: none;
 }
@@ -169,7 +185,7 @@ article.hero {
 
 .bg_image {
     background-image:   linear-gradient(74deg,#5ee2c3 0,#5ee2c3 25%,transparent 25%,transparent 75%,#5ee2c3 75%,#5ee2c3 100%),
-                        url(http://michael-panik.com/wp-content/uploads/sites/177/2017/08/headshot_NEW.jpg);
+                        url(/assets/hero.jpg);
     background-size: 100% 100%, cover;
     background-position: center, bottom right;
     background-repeat: no-repeat;
