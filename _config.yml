@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
-timezone:
+title: Michael Panik
+subtitle: Birmingham, Alabama Frontend Developer and UX Designer.
+description: Michael Panik is a frontend devloper and user experience designer in Birmingham, AL.
+keywords: frontend, developer, html, css, javascript, es6, react, php, wordpress, custom development, plugins
+author: Michael Panik
+language: en-us
+timezone: America/Chicago
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://michael-panik.com
 root: /
 permalink: :category/:title/
 permalink_defaults:
@@ -73,9 +73,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: michaelpanik
+theme: magnetic
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: 
+  repo: 
+  branch: 
