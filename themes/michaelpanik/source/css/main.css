@@ -165,7 +165,7 @@ article.hero {
 section.hero__text {
     font-size: 1.33em;
     position: relative;
-    z-index: 9999;
+    z-index: 999;
 }
 
 h1.hero__title>sup {
