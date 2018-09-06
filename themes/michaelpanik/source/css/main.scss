@@ -373,6 +373,14 @@ label.tooltipBubble:after {
     margin: 0;
 }
 
+ul.archive-list {
+    margin: 0;
+}
+
+ul.archive-list>li {
+    margin-bottom: 1.5em;
+}
+
 @media (max-width:1199px) {
 	.bg_image {
 		right: -25%;
