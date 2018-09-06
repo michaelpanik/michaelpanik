@@ -6,7 +6,7 @@ hr {
     width: 5em;
     margin: 4.5em auto;
     border: none;
-    border-top: 10px solid #5ee2c3;
+    border-top: 10px solid #751FDE;
 }
 
 body {
@@ -243,7 +243,8 @@ section#portfolio {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(94, 226, 195, .8);
+    background: rgba(117, 31, 222, .8);
+    color: #fff;
     opacity: 0;
     transition: .15s all ease-out;
 }
