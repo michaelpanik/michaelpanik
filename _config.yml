@@ -74,10 +74,16 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: michaelpanik
+all_minifier: true
+node_sass:
+  debug: false
+  outputStyle: nested
+  precision: 5
+  sourceComments: false
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 
   repo: 
-  branch: 
+  branch:
