@@ -44,6 +44,8 @@ button.menu-toggle {
     margin: 0;
     font-size: 1.66rem;
     height: 2em;
+    -webkit-appearance: none;
+    border-radius: 0;
 }
 
 
