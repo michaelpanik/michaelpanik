@@ -13,6 +13,22 @@ hr {
     border-top: 10px solid #751FDE;
 }
 
+blockquote {
+    border-left: 10px solid #dfe1e1;
+    padding: 1.5em;
+    margin: 0 1em 1.5em 1em;
+}
+
+blockquote>p {
+    margin-bottom: .5em;
+}
+
+blockquote>p:last-child {
+    margin: 0;
+    font-style: italic;
+    font-size: .866em;
+}
+
 body {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -53,7 +69,6 @@ button.menu-toggle {
     background: none;
     border: none;
 }
-
 
 .site-navigation>ul {
     margin: 0;
