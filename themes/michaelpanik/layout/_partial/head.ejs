@@ -48,6 +48,21 @@
         title.push(config.title);
     %>
     <title><%= title.join(' - ') %></title>
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Michael Panik",
+        "url": "https://michael-panik.com",
+        "sameAs": [
+            "http://twitter.com/michaelpanik",
+            "http://instagram.com/frontend.io",
+            "http://linkedin.com/in/michaelpanik",
+            "http://github.com/michaelpanik"
+        ]
+    }
+    </script>
     
     <!-- TypeKit Fonts -->
     <script>
