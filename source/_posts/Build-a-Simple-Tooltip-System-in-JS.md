@@ -7,7 +7,7 @@ tags:
 Today, let's look at how to build a simple, data-attribute-driven tooltip system from scratch with just some vanilla Javascript (ES6) and CSS.
 
 ## What We'll Be Making
-Let's look at an example of what we're making. Hover over the icon below for an example
+Let's look at an example of what we're making. Hover over the icon below for an example (or checkout the "Stack" section on any of my [portfolio items.](/portfolio)).
 
 <p style="text-align: center;"><i class="fab fa-rebel tooltip" data-tooltip="Die rebel scum!" style="font-size:3em"></i></p>
 
