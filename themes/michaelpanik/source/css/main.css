@@ -228,6 +228,7 @@ section#portfolio {
     display: block;
     position: relative;
     overflow: hidden;
+    box-shadow: none;
 }
 
 .portfolio--archive .portfolio__image {
