@@ -47,6 +47,13 @@ blockquote>p:last-child {
     font-size: .866em;
 }
 
+code {
+    background: #e3f1ed;
+    color: hsl(166, 100%, 27%);
+    padding: 0 .3em;
+    display: inline-block;
+}
+
 body {
     display: grid;
     grid-template-columns: 1fr 4fr;
