@@ -46,6 +46,8 @@ button.menu-toggle {
     height: 2em;
     -webkit-appearance: none;
     border-radius: 0;
+    background: none;
+    border: none;
 }
 
 
