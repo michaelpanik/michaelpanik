@@ -8,3 +8,12 @@ menuToggle.addEventListener('click', function() {
         body.classList.add('mobile-nav_active')
     }
 })
+
+const tooltipList = document.querySelectorAll('.tooltip')
+
+tooltipList.forEach(function(el) {
+    const tooltip = document.createElement('label')
+    tooltip.classList.add('tooltipBubble')
+    tooltip.innerHTML = el.dataset.tooltip
+    el.appendChild(tooltip)
+})

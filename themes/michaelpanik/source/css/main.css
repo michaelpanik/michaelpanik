@@ -295,6 +295,47 @@ section#portfolio {
     color:#CC6699;
 }
 
+.tooltip {
+    position: relative;
+}
+
+label.tooltipBubble {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fff;
+    font-family: 'Arial';
+    font-size: 12px;
+    background: #2b3534;
+    border-radius: 3px;
+    padding: 5px 10px;
+    bottom: 105%;
+    line-height: 1em;
+    pointer-events: none;
+    margin-bottom: -.5em;
+    transition: .1s all linear;
+    opacity: 0;
+}
+
+label.tooltipBubble:after {
+    content: '';
+    display: block;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #2b3534;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -2.5px;
+}
+
+.tooltip:focus>label,
+.tooltip:hover>label {
+    opacity: 1;
+    margin: 0;
+}
+
 @media (max-width:1199px) {
 	.bg_image {
 		right: -25%;
