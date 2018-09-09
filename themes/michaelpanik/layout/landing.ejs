@@ -5,3 +5,26 @@
     </section>
     <div class="bg_image"></div>
 </article>
+
+<script type="application/ld+json">
+    { 
+        "@context": "http://schema.org", 
+        "@type": "WebSite", 
+        "url": "https://www.michael-panik.com/", 
+        "name": "<%- page.title %>",
+        "author": {
+            "@type": "Person",
+            "name": "Michael Panik"
+        },
+        "publisher": "publisher name",
+        <% if (page.description){ %>
+            "description": "<%= page.description %>"
+        <% } else if (page.excerpt){ %>
+            "description": "<%= strip_html(page.excerpt).replace(/^\s*/, '').replace(/\s*$/, '') %>"
+        <% } else if (page.content){ %>
+            "description": "<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>"
+        <% } else if (config.description){ %>
+            "description": "<%= config.description %>"
+        <% } %>
+    }
+</script>

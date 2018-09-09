@@ -1,6 +1,7 @@
 ---
 title: About
 date: 2018-09-02 15:41:08
+description: When my family got our first computer, I was 6 years old and couldn’t care less. When my dad bought a copy of “The Complete Idiot's Guide To Creating A Web Page” three years later, I was enthralled. Suddenly it clicked that the art I loved to make in the real world, I could make on a computer! Over the next two years I would teach myself HTML 4.0, and discover that it was fun to make computers do what I told them (most of the time).
 ---
 ## History
 When my family got our first computer, I was 6 years old and couldn’t care less.

@@ -1,6 +1,7 @@
 ---
 title: Contact
 date: 2018-09-02 15:41:35
+description: Get in touch with me!
 ---
 I'd love to hear from and connect with you!
 
