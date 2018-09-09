@@ -384,7 +384,11 @@ ul.archive-list>li {
 @media (max-width:1199px) {
 	.bg_image {
 		right: -25%;
-	}
+    }
+    
+    section#portfolio {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (max-width:992px) {
