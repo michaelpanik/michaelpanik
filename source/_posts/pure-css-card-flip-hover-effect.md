@@ -1,9 +1,12 @@
 ---
 title: Pure CSS Card Flip Hover Effect
 date: 2018-09-02 22:09:07
+layout: blog-single
+keywords: css, css3, effect, transition, transform, animation, hover, pseduo-selector
 categories:
 - blog
 tags:
+description: Today we’re going to look at a pretty simple, CSS-only way to achieve a card-flipping effect. The goal is that on hovering over the card, it flips around to reveal content on the back. Let’s get started!
 ---
 Today we’re going to look at a pretty simple, CSS-only way to achieve a card-flipping effect. The goal is that on hovering over the card, it flips around to reveal content on the back. Let’s get started!
 

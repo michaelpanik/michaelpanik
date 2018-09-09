@@ -1,8 +1,11 @@
 ---
 title: Build a Simple Tooltip System in ES6
 date: 2018-08-13 14:42:41
+layout: blog-single
+keywords: es6, tooltip, javascript, frontend, css, html, learn, tutorial, how-to
 category: blog
 tags:
+description: Let's learn how to build a simple, data-attribute-driven tooltip system from scratch with just some vanilla Javascript (ES6) and CSS.
 ---
 Today, let's look at how to build a simple, data-attribute-driven tooltip system from scratch with just some vanilla Javascript (ES6) and CSS.
 

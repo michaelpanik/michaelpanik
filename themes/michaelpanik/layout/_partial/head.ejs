@@ -6,12 +6,12 @@
     <!--Description-->
     <% if (page.description){ %>
         <meta name="description" content="<%= page.description %>">
-    <% } else if (config.description){ %>
-        <meta name="description" content="<%= config.description %>">
     <% } else if (page.excerpt){ %>
         <meta name="description" content="<%= strip_html(page.excerpt).replace(/^\s*/, '').replace(/\s*$/, '') %>">
     <% } else if (page.content){ %>
         <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
+    <% } else if (config.description){ %>
+        <meta name="description" content="<%= config.description %>">
     <% } %>
 
     <!--Author-->
@@ -33,6 +33,17 @@
     <% } else { %>
         <meta property="og:image" content="<%= theme.cover %>"/>
     <% } %>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#61e2c4">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <meta name="msapplication-TileColor" content="#61e2c4">
+    <meta name="msapplication-config" content="/assets/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
     
     <!-- Title -->
      <%
@@ -48,6 +59,21 @@
         title.push(config.title);
     %>
     <title><%= title.join(' - ') %></title>
+
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Michael Panik",
+        "url": "https://michael-panik.com",
+        "sameAs": [
+            "http://twitter.com/michaelpanik",
+            "http://instagram.com/frontend.io",
+            "http://linkedin.com/in/michaelpanik",
+            "http://github.com/michaelpanik"
+        ]
+    }
+    </script>
     
     <!-- TypeKit Fonts -->
     <script>

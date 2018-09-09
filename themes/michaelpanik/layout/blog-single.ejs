@@ -4,16 +4,22 @@
 </article>
 
 <script type="application/ld+json">
-    { 
+    {
         "@context": "http://schema.org", 
-        "@type": "WebSite", 
-        "url": "https://www.michael-panik.com/", 
-        "name": "<%- page.title %>",
-        "author": {
-            "@type": "Person",
-            "name": "Michael Panik"
-        },
-        "publisher": "publisher name",
+        "@type": "TechArticle",
+        "headline": "<%- page.title %>",
+        "proficiencyLevel": "Intermediate",
+        <% if (page.cover){ %>
+        "image": "<%= page.cover %>",
+        <% } %>
+        "author": "Michael Panik", 
+        "genre": "frontend development", 
+        "keywords": "<%- page.keywords %>",
+        "publisher": "Michael Panik",
+        "url": "https://www.michael-panik.com",
+        "datePublished": "<%- page.date %>",
+        "dateCreated": "<%- page.date %>",
+        "dateModified": "<%- page.date %>",
         <% if (page.description){ %>
             "description": "<%= page.description %>"
         <% } else if (page.excerpt){ %>
