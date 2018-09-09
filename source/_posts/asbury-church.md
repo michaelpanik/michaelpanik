@@ -14,3 +14,7 @@ stack:
 - HTML5
 - CSS3
 ---
+![Asbury Church][asbury1]![Asbury Church][asbury2]<video autoplay muted loop id="asbury-video"><source src='/assets/portfolio/asbury-church/asbury_3.mp4'></source></video>
+
+[asbury1]: /assets/portfolio/asbury-church/asbury_1.jpg "Asbury Church"
+[asbury2]: /assets/portfolio/asbury-church/asbury_2.jpg "Asbury Church"

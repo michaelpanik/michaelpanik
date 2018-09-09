@@ -241,6 +241,24 @@ p.hero__subtitle>a:hover {
     box-shadow: inset 0 0em transparent, inset 0 -0.45em transparent;
 }
 
+body.mp-page-transition .hero__text>* {
+    transform: translateY(4em);
+    opacity: 0;
+    transition: .25s all ease-out;
+}
+
+body.mp-page-transition .bg_image {
+    right: -15em;
+    transition: .6s all ease-out;
+    opacity: 0;
+}
+
+body.mp-page-transition main > article {
+    opacity: 0;
+    transition: .2s opacity linear;
+    transition-delay: .2s;
+}
+
 section#portfolio {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -293,6 +311,38 @@ section#portfolio {
 .portfolio--archive>a:focus .portfolio__overlay,
 .portfolio--archive>a:hover .portfolio__overlay {
     opacity: 1;
+}
+
+.portfolio__content img {
+    max-width: 100%;
+    display: block;
+}
+
+.portfolio__content {
+    margin: 0 -3em;
+}
+
+.video-container {
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    margin-bottom: 1.5em;
+}
+
+#asbury-video {
+    margin: 3em auto 0 auto;
+    display: block;
+    box-shadow: 0 5px 20px rgba(0,0,0,.5);
+}
+
+.video-container>iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .stack>li {

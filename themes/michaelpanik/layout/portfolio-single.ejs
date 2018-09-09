@@ -1,15 +1,28 @@
-<article class="page">
+<article class="page portfolio">
+    
     <h1><%- page.title %></h1>
-    <h2>Description</h2>
-    <p><%- page.description %></p>
-    <h2>My Role</h2>
-    <p><%- page.myRole %></p>
-    <hr>
-    <p><%- page.content %></p>
-    <h2>Stack</h2>
-    <ul class="stack">
-        <% page.stack.forEach(function(item){ %>
-            <%- partial('_partial/stack-icon', {item: item}) %>
-        <% }); %>
-    </ul>
+
+    <% if (page.description) { %>
+        <h2>Description</h2>
+        <p><%- page.description %></p>
+    <% } %> 
+    
+    <% if (page.myRole) { %>
+        <h2>My Role</h2>
+        <p><%- page.myRole %></p>
+    <% } %> 
+    
+    <% if (page.content) { %>
+        <hr>
+        <section class="portfolio__content"><%- page.content %></section>
+    <% } %> 
+    
+    <% if (page.stack) { %>
+        <h2>Stack</h2>
+        <ul class="stack">
+            <% page.stack.forEach(function(item){ %>
+                <%- partial('_partial/stack-icon', {item: item}) %>
+                <% }); %>
+            </ul>
+    <% } %> 
 </article>
