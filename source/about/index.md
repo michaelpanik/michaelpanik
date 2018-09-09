@@ -24,9 +24,9 @@ Since then I've stayed hungry and excited to learn more and more about programmi
 For more info, check out my [resume](/assets/michael-panik-resume_2018.pdf)! -->
 
 ## This Site
-This website is built using [Hexo](https://hexo.io/) and is deployed on [Netlify](https://netlify.com/). The theme is based on [Magnetic](https://github.com/klugjo/hexo-theme-magnetic), a theme built by [PixelHint](http://pixelhint.com/magnetic-free-html5-responsive-photography-website-template/) and implemented for Hexo by [Jonathan Klughertz](http://www.codeblocq.com/).
+This website is built using [Hexo](https://hexo.io/) and is deployed on [Netlify](https://netlify.com/). The theme is custom, but took lots of inspiration by from Hexo Magnetic theme by [Jonathan Klughertz](http://www.codeblocq.com/).
 
-Some people may wonder why, as a developer and designer, I would use a theme and deploy to simplified system. It's simple: we all build on the progress of others, and getting something done is more important than doing it yourself. Had I tried to design and build a whole system from scratch (I did) I wouldn't finish it, and I would have just sat on it for one year, four months, and roughly 12 days (I did).
+<!-- Some people may wonder why, as a developer and designer, I would use a theme and deploy to simplified system. It's simple: we all build on the progress of others, and getting something done is more important than doing it yourself. Had I tried to design and build a whole system from scratch (I did) I wouldn't finish it, and I would have just sat on it for one year, four months, and roughly 12 days (I did). -->
 
 ## Other Interests
 It’s not all 1s and 0s! I’m an avid singer/songwriter and have played piano most of my life, picking up some trombone, banjo, accordion, harmonica, and bass along the way. Not surprising, I’m a huge lover of synthesizers (music AND computers? Come on…) and have released [an album of synthwave music](https://videohomesystem.bandcamp.com) with my brother Andrew.
