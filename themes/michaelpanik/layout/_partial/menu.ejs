@@ -6,7 +6,7 @@
             <%- image_tag('/img/logo_initials.svg', {class: 'logo', alt: 'Michael Panik logo'}) %>
         </a>
         
-        <nav class="site-navigation">
+        <nav class="site-navigation" id="siteNavigation">
             <ul>
                 <% for (var i in theme.menu){ %>
                     <li>
@@ -16,7 +16,9 @@
             </ul>
         </nav>
 
-        <button class="menu-toggle"><i class="fa fa-bars"></i></button>
+        <button class="menu-toggle" type="button" aria-controls="siteNavigation" aria-expanded="true" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
 
     </main>
 
@@ -27,21 +29,25 @@
             <li class="social__link">
                 <a href="https://twitter.com/michaelpanik" target="_blank">
                     <i class="fab fa-twitter"></i>
+                    <span class="sr-only">Follow Michael Panik on Twitter.</span>
                 </a>
             </li>
             <li class="social__link">
                 <a href="https://instagram.com/frontend.io" target="_blank">
                     <i class="fab fa-instagram"></i>
+                    <span class="sr-only">Follow Michael Panik on Instagram.</span>
                 </a>
             </li>
             <li class="social__link">
                 <a href="https://linkedin.com/in/michaelpanik" target="_blank">
                     <i class="fab fa-linkedin"></i>
+                    <span class="sr-only">Follow Michael Panik on Linkedin.</span>
                 </a>
             </li>
             <li class="social__link">
                 <a href="https://github.com/michaelpanik" target="_blank">
                     <i class="fab fa-github"></i>
+                    <span class="sr-only">Follow Michael Panik on Github.</span>
                 </a>
             </li>
         </ul>

@@ -386,7 +386,7 @@ section#portfolio {
     position: relative;
 }
 
-label.tooltipBubble {
+.tooltipBubble {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -404,7 +404,7 @@ label.tooltipBubble {
     opacity: 0;
 }
 
-label.tooltipBubble:after {
+.tooltipBubble:after {
     content: '';
     display: block;
     height: 0;
@@ -417,8 +417,8 @@ label.tooltipBubble:after {
     margin-left: -2.5px;
 }
 
-.tooltip:focus>label,
-.tooltip:hover>label {
+.tooltip:focus>.tooltipBubble,
+.tooltip:hover>.tooltipBubble {
     opacity: 1;
     margin: 0;
 }
