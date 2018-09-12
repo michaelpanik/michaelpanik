@@ -1,20 +1,22 @@
-<article class="page portfolio">
+<article class="page portfolio <%- page.slug %>">
     
     <h1><%- page.title %></h1>
 
     <% if (page.description) { %>
         <h2>Description</h2>
-        <p><%- page.description %></p>
+        <%- markdown(page.description) %>
     <% } %> 
     
     <% if (page.myRole) { %>
         <h2>My Role</h2>
-        <p><%- page.myRole %></p>
+        <%- markdown(page.myRole) %>
     <% } %> 
     
     <% if (page.content) { %>
         <hr>
-        <section class="portfolio__content"><%- page.content %></section>
+        <section class="portfolio__content">
+            <%- markdown(page.content) %>
+        </section>
     <% } %> 
     
     <% if (page.stack) { %>
