@@ -39,11 +39,4 @@ collections:
         - {label: "Description", name: "description", widget: "markdown"}
         - {label: "My Role", name: "myRole", widget: "markdown"}
         - {label: "Featured Image", name: "cover_image", widget: "image"}
-        - {label: "Stack", name: "stack", widget: "select", multiple: true, options:
-          - {label: "HTML", value: "HTML"}
-          - {label: "CSS", value: "CSS"}
-          - {label: "Wordpress", value: "Wordpress"}
-          - {label: "Javascript", value: "Javascript"}
-          - {label: "jQuery", value: "jQuery"}
-          - {label: "React", value: "React"}
-          }
+        - {label: "Stack", name: "stack", widget: "select", multiple: true, options:["HTML","CSS","Wordpress","Javascript","jQuery","React"]}
