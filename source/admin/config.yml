@@ -15,7 +15,7 @@ public_folder: "/assets"
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "_posts/blog"
+    folder: "source/_posts/blog"
     create: true
     slug: "{{slug}}"
     fields:
@@ -27,7 +27,7 @@ collections:
         - {label: "Excerpt", name: "description", widget: "string"}
   - name: "portfolio"
     label: "Portfolio"
-    folder: "_posts/portfolio"
+    folder: "source/_posts/portfolio"
     create: true
     slug: "{{slug}}"
     fields:
