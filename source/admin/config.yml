@@ -22,6 +22,7 @@ collections:
         - {label: "Layout", name: "layout", widget: "hidden", default: "blog-single"}
         - {label: "Categories", name: "categories", widget: "hidden", default: "blog"}
         - {label: "Title", name: "title", widget: "string"}
+        - {label: "Cover Image", name: "cover", widget: "image"}
         - {label: "Publish Date", name: "date", widget: "datetime" }
         - {label: "Keywords", name: "keywords", widget: "string"}
         - {label: "Excerpt", name: "description", widget: "markdown"}
@@ -35,6 +36,7 @@ collections:
         - {label: "Layout", name: "layout", widget: "hidden", default: "portfolio-single"}
         - {label: "Categories", name: "categories", widget: "hidden", default: "portfolio"}
         - {label: "Title", name: "title", widget: "string"}
+        - {label: "Cover Image", name: "cover", widget: "image"}
         - {label: "Publish Date", name: "date", widget: "datetime" }
         - {label: "Description", name: "description", widget: "markdown"}
         - {label: "My Role", name: "myRole", widget: "markdown"}

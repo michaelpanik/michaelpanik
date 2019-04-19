@@ -2,7 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 layout: portfolio-single
-cover_image:
+cover:
 categories:
 - portfolio
 description:

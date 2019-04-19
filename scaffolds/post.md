@@ -4,4 +4,5 @@ date: {{ date }}
 layout: blog-single
 keywords: 
 tags:
+cover: 
 ---
