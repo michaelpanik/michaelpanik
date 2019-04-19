@@ -160,6 +160,12 @@ body > main {
 
 article.page {
     padding: 3em;
+
+    p {
+        img {
+            max-width: 100%;
+        }
+    }
 }
 
 body > main a {
