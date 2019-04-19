@@ -33,9 +33,9 @@
 
     <!--Page Cover-->
     <% if(page.cover) { %>
-        <meta property="og:image" content="<%= url_for(page.cover) %>" />
+        <meta property="og:image" content="https://michael-panik.com/<%= page.cover %>" />
     <% } else { %>
-        <meta property="og:image" content="<%= url_for(theme.cover)  %>"/>
+        <meta property="og:image" content="https://michael-panik.com/<%= theme.cover %>"/>
     <% } %>
 
     <!-- Google Site Verification -->
