@@ -2,7 +2,7 @@
 layout: blog-single
 categories: blog
 title: >-
-  Building A RPi Cluster For Local Wordpress Development - Part 1 (How, Why,
+  Building an RPi Cluster For Local Wordpress Development - Part 1 (How, Why,
   What)
 date: 2019-04-19T21:16:04.079Z
 keywords: 'wordpress, rpi, raspberry pi, cluster, trellis, bedrock, roots, load balancing'
