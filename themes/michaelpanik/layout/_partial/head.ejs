@@ -29,9 +29,9 @@
 
     <!--Page Cover-->
     <% if(page.cover) { %>
-        <meta property="og:image" content="<%= page.cover %>" />
+        <meta property="og:image" content="<%= url_for(page.cover) %>" />
     <% } else { %>
-        <meta property="og:image" content="<%= theme.cover %>"/>
+        <meta property="og:image" content="<%= url_for(theme.cover) %>"/>
     <% } %>
 
     <!-- Google Site Verification -->
