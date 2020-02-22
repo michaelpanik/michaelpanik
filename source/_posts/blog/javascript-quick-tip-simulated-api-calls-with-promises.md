@@ -3,7 +3,7 @@ layout: blog-single
 categories: blog
 title: 'JavaScript Quick Tip: Simulated API Calls With Promises'
 cover: /assets/pankaj-patel-1IW4HQuauSU-unsplash.jpg
-date: 2019-03-10T02:03:04.164Z
+date: 2020-02-23T02:03:04.164Z
 keywords: 'react, es6, quick tips, promises, javascript, programming'
 description: >-
   Here's an easy, quick way to simulate API calls for a situation where you may
