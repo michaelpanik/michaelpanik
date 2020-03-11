@@ -565,3 +565,12 @@ ul.archive-list>li {
     bottom: 0;
     background: #fff;
 }
+
+.blog-post {
+    img {
+        margin: 0 auto 1.5em auto;
+        display: block;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        border-radius: 5px;
+    }
+}
