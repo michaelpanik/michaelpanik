@@ -9,7 +9,7 @@ description: >-
   In part two we'll look at how to send from your new, custom domain email
   address, and as always, for free!
 ---
-Welcome back! [In part one of this post](/blog/unlimited-free-custom-domain-email-addresses-sorta-part-1/) we looked at email forwarding through [Namecheap’s DNS](https://namecheap.pxf.io/rP5LG), into Google, and filtering emails into their own “inboxes” – free custom domain email! If you haven’t read part one, start there.
+Welcome back! [In part one of this post](/blog/unlimited-free-custom-domain-email-addresses-sorta/) we looked at email forwarding through [Namecheap’s DNS](https://namecheap.pxf.io/rP5LG), into Google, and filtering emails into their own “inboxes” – free custom domain email! If you haven’t read part one, start there.
 
 Right now, if you got an email to [anything@devvv.co](mailto:anything@devvv.co) and responded to it, the response would come from [yourname@gmail.com](mailto:yourname@gmail.com). Not exactly a great experience for the person emailing you! With a few extra steps, we can set up the option to send from your @gmail.com email, or your fancy new custom domain email as well.
 
