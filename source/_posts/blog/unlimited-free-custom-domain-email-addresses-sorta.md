@@ -1,7 +1,7 @@
 ---
 layout: blog-single
 categories: blog
-title: Unlimited Free Custom-Domain Email Addresses (Sorta)
+title: 'Unlimited Free Custom-Domain Email Addresses (Sorta): Part 1'
 cover: /assets/gmail.jpg
 date: 2020-03-09T15:53:51.142Z
 keywords: 'gmail, domain, dns, namecheap, custom'
@@ -13,6 +13,8 @@ description: >-
   there’s a million free email options out there, there’s something very
   impactful about having your own, custom domain email address.
 ---
+**UPDATE 3/11/2020: I’ve been asked by several people if it’s possible to send email from these domains as well as receive. Previously, I didn’t include instructions for such, but it IS possible in Gmail, and I’ve added the solution in [Unlimited Free Custom-Domain Email Addresses (Sorta): Part 2](/blog/unlimited-free-custom-domain-email-addresses-sorta-part-2/).**
+
 I always find that one of the most limiting things about starting any new endeavor is email. Whether it’s a business, blog, podcast, YouTube channel, open source project, or anything else, having a direct line of communication can be very helpful, even integral when you’re just getting started. While there’s a million free email options out there, there’s something very impactful about having your own, custom domain email address. Example: [applecomputers@gmail.com](mailto:applecomputers@gmail.com) just doesn’t have the same weight as [steve@apple.com](mailto:steve@apple.com).
 
 If you have the domain, setting up custom email is relatively simple. Most domain registrars offer an affordable custom email solution anyway. When “free” is the name of your low-budget game, however, even a few bucks a month can tip the scales. Here’s my secret to unlimited, free, custom-domain email addresses.
@@ -53,4 +55,6 @@ Now, when someone emails [anything@devvv.co](mailto:anything@devvv.co), I’ll s
 
 - - -
 
-As you can see, this is a quick and painless way to get the functionality of a custom-domain email without paying a cent. Sure has saved me a lot of time and a lot of money.
+## Tis Better to Send Than to Receive
+
+Currently, we’re able to receive emails from any domain we own, into any email account we own, and automatically sort them into their own folders - nifty! With email, that’s only half the battle: we have to be able to send emails as well. [In part two of this post](/blog/unlimited-free-custom-domain-email-addresses-sorta-part-2/), we’ll look at how to send emails from your fancy custom domain as well (and also for FREE!)
