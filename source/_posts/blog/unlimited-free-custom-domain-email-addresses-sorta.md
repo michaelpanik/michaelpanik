@@ -21,11 +21,11 @@ If you have the domain, setting up custom email is relatively simple. Most domai
 
 ## A Quick Nod to Namecheap
 
-[Namecheap](https://www.namecheap.com/) is my go-to domain registrar. Their customer support is dynamite and the freebies you get with their service is just excellent. One of the best freebies they offer is unlimited email forwarding on any domain in their system. The rest of this article will assume you’re using Namecheap for domains, and a free [Gmail](https://www.google.com/gmail/) account for the actual email.
+[Namecheap](https://namecheap.pxf.io/rP5LG/) is my go-to domain registrar. Their customer support is dynamite and the freebies you get with their service is just excellent. One of the best freebies they offer is unlimited email forwarding on any domain in their system. The rest of this article will assume you’re using Namecheap for domains, and a free [Gmail](https://www.google.com/gmail/) account for the actual email.
 
 ## Let’s Get Going!
 
-Step one is going to be to register your custom domain, if you haven’t already. Of course again, [register it through Namecheap](https://www.namecheap.com/domains/).
+Step one is going to be to register your custom domain, if you haven’t already. Of course again, [register it through Namecheap](https://namecheap.pxf.io/jLqQn).
 
 Once registered, go to your domain list in your account, find your new domain, and click “Manage”. On the first tab here, scroll to find the section titled “Email Forwarding”. You have some options here, but I’ll choose to do a catch-all.
 
