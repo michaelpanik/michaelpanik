@@ -27,9 +27,13 @@ Next step is to generate an application password. Still in your account settings
 
 Now that 2-Step Auth is on and we have an application password, we can add a sending alias to Gmail. Go to your Gmail settings. Go to the tab labeled “Accounts and Imports”, and look for the section labeled “Send Mail As”. You’ll see an option to “Add another email address”. In the window that pops up, you can set a “From” name and address. Here you might want to use “Michael at Devvv.co” for example if it’s a business or side project. For email, I’ll enter “[michael@devvv.co](mailto:michael@devvv.co)”.
 
+![](/assets/screen-shot-2020-03-11-at-9.51.51-am.png)
+
 Here’s where the magic happens: in the next screen, enter “smtp.gmail.com” for the SMTP Server, your full gmail address as the username, and the app password you just copied as the password. Everything else can be left the same. An email will be sent to the email you just input, which should now be routed to your gmail account. Copy the code, paste it in to verify, and you’re all set!
 
 Now when you’re composing a new email or a reply, you will see a dropdown in the “From” line, and you can choose your standard gmail address, or your new one.
+
+![](/assets/multiple-from.jpg)
 
 - - -
 
