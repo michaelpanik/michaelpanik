@@ -3,7 +3,7 @@ layout: blog-single
 categories: blog
 title: 'Unlimited Free Custom-Domain Email Addresses (Sorta): Part 2'
 cover: /assets/gmail.jpg
-date: 2020-03-09T15:53:51.142Z
+date: 2020-03-11T15:53:51.142Z
 keywords: 'gmail, domain, dns, namecheap, custom'
 description: >-
   In part two we'll look at how to send from your new, custom domain email
