@@ -574,3 +574,25 @@ ul.archive-list>li {
         border-radius: 5px;
     }
 }
+
+.blog-post__header {
+    background-size: cover;
+    background-position: center center;
+    padding: 20vh 0 0 0;
+    
+    h1 {
+        margin-top: 0;
+    }
+
+    .container {
+        background: #fff;
+        padding: 3em 1.5em 0 1.5em;
+        margin: 0 1.5em;
+        text-align: center;
+    }
+    
+    time {
+        margin-bottom: 2em;
+        display: block;
+    }
+}
