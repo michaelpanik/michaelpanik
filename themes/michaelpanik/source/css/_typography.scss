@@ -27,6 +27,23 @@ li {
   line-height: 1.5em;
 }
 
+article.blog-post {
+    ol,
+    ul {
+        padding-left: 3em;
+    }
+
+    ol > li {
+        list-style: decimal;
+        margin-bottom: 1.5em;
+    }
+    
+    ul > li {
+        list-style: square;
+        margin-bottom: 1.5em;
+    }
+}
+
 strong {
     font-weight: bolder;
 }
@@ -51,14 +68,14 @@ h1, .h1 {
 h2, .h2 {
   font-size: 2.07em;
   line-height: 1.5em;
-  margin: .75em 0 .5em 0;
+  margin: 1.5em 0 .5em 0;
 }
 
 h3, .h3 {
   font-size: 1.73em;
   line-height: 1.5em;
   text-transform: uppercase;
-  margin: 2em 0;
+  margin: 1em 0;
 }
 
 h4, .h4 {

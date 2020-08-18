@@ -1,9 +1,12 @@
-<li>
-    <a href="<%- config.root %><%- item.path %>">
-        <%- item.title || theme.default_post_title || "Untitled" %>
-    </a>
-    <br>
-    <small>
-        <%- date(item.date, 'LL') %>
-    </small>
-</li>
+<a href="<%- config.root %><%- item.path %>" class="archive__item">
+    <div class="archive__item__image">
+        <img src="<%- item.cover %>" />
+        <i class="fa fa-newspaper fa-4x" />
+    </div>
+    <h2>
+        <span>
+            <%- item.title || theme.default_post_title || "Untitled" %>
+        </span>
+    </h2>
+    <time><%- date(item.date, 'LL') %></time>
+</a>

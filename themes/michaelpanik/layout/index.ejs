@@ -1,8 +1,8 @@
 <article class="page">
     <h1>Blog</h1>
-    <ul class="archive-list">
+    <div class="archive">
         <% site.categories.findOne({name:'blog'}).posts.sort('date', -1).each( function(post) { %>
             <%- partial('_partial/article-archive', {item: post}) %>
         <% }); %>
-    </ul>
+    </div>
 </article>

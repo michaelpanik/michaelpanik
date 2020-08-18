@@ -2,6 +2,7 @@
 @import 'typography';
 @import 'atom-one-dark';
 @import 'social-share';
+@import 'blog-archive';
 
 .wf-loading {
     h1, h2, h3, h4, h5 {
@@ -437,14 +438,6 @@ section#portfolio {
 .tooltip:hover>.tooltipBubble {
     opacity: 1;
     margin: 0;
-}
-
-ul.archive-list {
-    margin: 0;
-}
-
-ul.archive-list>li {
-    margin-bottom: 1.5em;
 }
 
 @media (max-width:1199px) {
