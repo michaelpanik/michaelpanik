@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Panik</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1f1e25;
+            color: #fff;
+        }
+
+        a {
+            color: #ffff00;
+        }
+
+        #wrapper {
+            margin: 0 auto;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #inner {
+            max-width: 500px;
+            text-align: center;
+        }
+
+        footer {
+            color: #aaa;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="wrapper">
+        <div id="inner">
+            <h2>Welcome to my website!</h2>
+            <p>My name is Michael Panik and I am a web developer. I have been working in the industry for over 10 years
+                and
+                have experience with a wide range of technologies. I am passionate about web development and love
+                creating
+                new and exciting websites for my clients.</p>
+            <p>Currently I am the Co-founder and CTO at <a href="https://getrevise.com">getrevise.com</a>.
+            </p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Michael Panik</p>
+    </footer>
+    </main>
+
+    <script>
+        const year = new Date().getFullYear();
+        document.getElementById('year').textContent = year;
+    </script>
+</body>
+
+</html>
